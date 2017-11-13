@@ -111,7 +111,7 @@ std::size_t OperationCountingObject::copiedObjects = 0;
 std::size_t OperationCountingObject::movedObjects = 0;
 std::size_t OperationCountingObject::assignedObjects = 0 ;
 
-std::ostream& operator<<(std::ostream& out, const OperationCountingObject& obj)
+/*std::ostream& operator<<(std::ostream& out, const OperationCountingObject& obj)
 {
   return out << '<' << static_cast<int>(obj) << '>';
 }
@@ -138,7 +138,7 @@ using std::begin;
 using std::end;
 
 BOOST_FIXTURE_TEST_SUITE(VectorTests, Fixture)
-/*
+
 template <typename T>
 void thenCollectionContainsValues(const LinearCollection<T>& collection,
                                   std::initializer_list<int> expected)

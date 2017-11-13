@@ -247,7 +247,9 @@ public:
 
     explicit ConstIterator()
     {
-
+        ptr_to_element = nullptr;
+        ptr_to_vector = nullptr;
+        index_in_array = 0;
     }
 
     reference operator*() const
@@ -276,36 +278,39 @@ public:
 
     ConstIterator operator--(int)
     {
-        throw std::runtime_error("TODO");
+        ConstIterator tmp = *this;
+        ++(*this);
+        return tmp;
     }
 
     ConstIterator operator+(difference_type d) const
     {
-        (void)d;
-        throw std::runtime_error("TODO");
+        ConstIterator tmp = *this;
+        tmp.ptr_to_element += d;
+        return tmp;
     }
 
     ConstIterator operator-(difference_type d) const
     {
-        (void)d;
-        throw std::runtime_error("TODO");
+        ConstIterator tmp = *this;
+        tmp.ptr_to_element -= d;
+        return tmp;
     }
 
     bool operator==(const ConstIterator& other) const
     {
-        (void)other;
-        throw std::runtime_error("TODO");
+        return ( ptr_to_vector == other.ptr_to_vector && ptr_to_element == other.ptr_to_element );
     }
 
     bool operator!=(const ConstIterator& other) const
     {
-        (void)other;
-        throw std::runtime_error("TODO");
+        return ( ptr_to_vector != other.ptr_to_vector || ptr_to_element != other.ptr_to_element );
     }
 
 private:
     const Vector<Type>* ptr_to_vector;
-    value_type* ptr_to_element;
+    pointer ptr_to_element;
+    size_type index_in_array;
 };
 
 template <typename Type>
