@@ -132,7 +132,7 @@ public:
        }
        else
        {
-            // Przemieszczenie wszystkich elementow o jeden
+            // Moving all elements by 1
             for( size_type i = 0; i < first_empty; ++i )
                 array[i+1] = array[i];
 
@@ -145,19 +145,29 @@ public:
     // TODO
     void insert(const const_iterator& insertPosition, const Type& item)
     {
-        (void)insertPosition;
-        (void)item;
-        throw std::runtime_error("TODO");
+        if( size_of_container <= 0 )
+            allocate_more_space();
+
+        // TODO i need iterator
     }
 
+    // OK
     Type popFirst()
     {
-        throw std::runtime_error("TODO");
+        value_type tmp = array[0];
+
+        for( size_type i = 1; i < first_empty; ++i )
+            array[i-1] = array[i];
+
+        --first_empty;
+
+        return tmp;
     }
 
+    // OK
     Type popLast()
     {
-        throw std::runtime_error("TODO");
+        return array[--first_empty];
     }
 
     void erase(const const_iterator& possition)
