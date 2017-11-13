@@ -86,6 +86,8 @@ public:
 
         for( auto it = other.begin(); it != other.end(); ++it )
                 append( *it );
+
+        return *this;
     }
 
     // OK ?
@@ -100,6 +102,8 @@ public:
         other.array = nullptr;
         other.first_empty = 0;
         other.size_of_container = 0;
+
+        return *this;
     }
 
     // OK
@@ -149,6 +153,13 @@ public:
             allocate_more_space();
 
         // TODO i need iterator
+
+        for(size_type i = insertPosition.index_in_array; i < first_empty; ++i)
+        {
+            array[i+1] = array[i];
+        }
+        ++first_empty;
+        array[insertPosition.index_in_array] = item;
     }
 
     // OK
@@ -172,8 +183,7 @@ public:
 
     void erase(const const_iterator& possition)
     {
-        (void)possition;
-        throw std::runtime_error("TODO");
+        for( size_type i = possition.index_in_array; i < first_empty)
     }
 
     void erase(const const_iterator& firstIncluded, const const_iterator& lastExcluded)
@@ -260,6 +270,7 @@ public:
     ConstIterator& operator++()
     {
         ++ptr_to_element;
+        ++index_in_array;
         return *this;
     }
 
@@ -273,13 +284,14 @@ public:
     ConstIterator& operator--()
     {
         --ptr_to_element;
+        --index_in_array;
         return *this;
     }
 
     ConstIterator operator--(int)
     {
         ConstIterator tmp = *this;
-        ++(*this);
+        --(*this);
         return tmp;
     }
 
@@ -287,6 +299,7 @@ public:
     {
         ConstIterator tmp = *this;
         tmp.ptr_to_element += d;
+        tmp.index_in_array += d;
         return tmp;
     }
 
@@ -294,6 +307,7 @@ public:
     {
         ConstIterator tmp = *this;
         tmp.ptr_to_element -= d;
+        tmp.index_in_array -= d;
         return tmp;
     }
 
