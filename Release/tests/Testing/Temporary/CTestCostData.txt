@@ -1,3 +1,0 @@
-boostUnitTestsRun 0 0
----
-boostUnitTestsRun
