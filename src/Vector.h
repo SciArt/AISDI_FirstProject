@@ -76,7 +76,7 @@ public:
         delete[] array;
     }
 
-    // OK - but it might be worth checking if errors occure
+    // OK - but it might be worth checking if errors occur
     Vector& operator=(const Vector& other)
     {
         delete[] array;
@@ -252,22 +252,26 @@ public:
 
     reference operator*() const
     {
-        throw std::runtime_error("TODO");
+        return *ptr_to_element;
     }
 
     ConstIterator& operator++()
     {
-        throw std::runtime_error("TODO");
+        ++ptr_to_element;
+        return *this;
     }
 
     ConstIterator operator++(int)
     {
-        throw std::runtime_error("TODO");
+        ConstIterator tmp = *this;
+        ++(*this);
+        return tmp;
     }
 
     ConstIterator& operator--()
     {
-        throw std::runtime_error("TODO");
+        --ptr_to_element;
+        return *this;
     }
 
     ConstIterator operator--(int)
