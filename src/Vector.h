@@ -255,49 +255,53 @@ public:
         throw std::runtime_error("TODO");
     }
 
-  ConstIterator& operator++()
-  {
-    throw std::runtime_error("TODO");
-  }
+    ConstIterator& operator++()
+    {
+        throw std::runtime_error("TODO");
+    }
 
-  ConstIterator operator++(int)
-  {
-    throw std::runtime_error("TODO");
-  }
+    ConstIterator operator++(int)
+    {
+        throw std::runtime_error("TODO");
+    }
 
-  ConstIterator& operator--()
-  {
-    throw std::runtime_error("TODO");
-  }
+    ConstIterator& operator--()
+    {
+        throw std::runtime_error("TODO");
+    }
 
-  ConstIterator operator--(int)
-  {
-    throw std::runtime_error("TODO");
-  }
+    ConstIterator operator--(int)
+    {
+        throw std::runtime_error("TODO");
+    }
 
-  ConstIterator operator+(difference_type d) const
-  {
-    (void)d;
-    throw std::runtime_error("TODO");
-  }
+    ConstIterator operator+(difference_type d) const
+    {
+        (void)d;
+        throw std::runtime_error("TODO");
+    }
 
-  ConstIterator operator-(difference_type d) const
-  {
-    (void)d;
-    throw std::runtime_error("TODO");
-  }
+    ConstIterator operator-(difference_type d) const
+    {
+        (void)d;
+        throw std::runtime_error("TODO");
+    }
 
-  bool operator==(const ConstIterator& other) const
-  {
-    (void)other;
-    throw std::runtime_error("TODO");
-  }
+    bool operator==(const ConstIterator& other) const
+    {
+        (void)other;
+        throw std::runtime_error("TODO");
+    }
 
-  bool operator!=(const ConstIterator& other) const
-  {
-    (void)other;
-    throw std::runtime_error("TODO");
-  }
+    bool operator!=(const ConstIterator& other) const
+    {
+        (void)other;
+        throw std::runtime_error("TODO");
+    }
+
+private:
+    const Vector<Type>* ptr_to_vector;
+    value_type* ptr_to_element;
 };
 
 template <typename Type>
