@@ -25,6 +25,7 @@ public:
     using iterator = Iterator;
     using const_iterator = ConstIterator;
 
+    // OK
     Vector()
     {
         first_empty = 0;
@@ -32,6 +33,7 @@ public:
         array = nullptr;
     }
 
+    // OK
     Vector(std::initializer_list<Type> l)
     {
         first_empty = 0;
@@ -42,6 +44,7 @@ public:
             append( *it );
     }
 
+    // OK
     Vector(const Vector& other)
     {
         first_empty = 0;
@@ -52,6 +55,7 @@ public:
             append( *it );
     }
 
+    // OK
     Vector(Vector&& other)
     {
         // Copying data from 'other'
@@ -65,46 +69,61 @@ public:
         other.size_of_container = 0;
     }
 
+    // OK
     ~Vector()
     {
         // Just delete all data in array
         delete[] array;
     }
 
+    // OK - but it might be worth checking if errors occure
     Vector& operator=(const Vector& other)
     {
         delete[] array;
         array = nullptr;
+        first_empty = 0;
+        size_of_container = 0;
 
         for( auto it = other.begin(); it != other.end(); ++it )
                 append( *it );
     }
 
+    // OK ?
     Vector& operator=(Vector&& other)
     {
-        // TODO - need erase
-        (void)other;
-        throw std::runtime_error("TODO");
+        delete[] array;
+
+        array = other.array;
+        first_empty = other.first_empty;
+        size_of_container = other.size_of_container;
+
+        other.array = nullptr;
+        other.first_empty = 0;
+        other.size_of_container = 0;
     }
 
+    // OK
     bool isEmpty() const
     {
         return (first_empty == 0);
     }
 
+    // OK
     size_type getSize() const
     {
         return first_empty;
     }
 
+    // OK
     void append(const Type& item)
     {
         if( size_of_container-first_empty <= 0 )
-            allocate_more_space()
+            allocate_more_space();
 
         array[first_empty] = item;
     }
 
+    // OK
     void prepend(const Type& item)
     {
        if( size_of_container-first_empty <= 0 )
@@ -123,9 +142,12 @@ public:
        array[0] = item;
     }
 
+    // TODO
     void insert(const const_iterator& insertPosition, const Type& item)
     {
-        value_type* tmp = new value_type[ size_of_container+1 ];
+        (void)insertPosition;
+        (void)item;
+        throw std::runtime_error("TODO");
     }
 
     Type popFirst()
