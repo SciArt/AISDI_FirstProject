@@ -1,0 +1,1045 @@
+Start testing: Nov 11 20:47 CET
+----------------------------------------------------------
+1/1 Testing: boostUnitTestsRun
+1/1 Test: boostUnitTestsRun
+Command: "/home/sciart/Desktop/Liniowe/Release/tests/aisdiLinearTests"
+Directory: /home/sciart/Desktop/Liniowe/Release/tests
+"boostUnitTestsRun" start time: Nov 11 20:47 CET
+Output:
+----------------------------------------------------------
+Running 512 test cases...
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenCreatedWithDefaultConstructor_ThenItIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(221): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenCreatedWithDefaultConstructor_ThenItIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(221): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenCreatedWithDefaultConstructor_ThenItIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(221): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenCreatedWithDefaultConstructor_ThenItIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(221): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(226): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(226): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(226): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(226): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingIterators_ThenBeginEqualsEnd<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(241): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingIterators_ThenBeginEqualsEnd<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(241): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingIterators_ThenBeginEqualsEnd<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(241): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingIterators_ThenBeginEqualsEnd<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(241): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(248): last checkpoint: "GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(248): last checkpoint: "GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(248): last checkpoint: "GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(248): last checkpoint: "GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(258): last checkpoint: "GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(258): last checkpoint: "GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(258): last checkpoint: "GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(258): last checkpoint: "GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(271): last checkpoint: "GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(271): last checkpoint: "GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(271): last checkpoint: "GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(271): last checkpoint: "GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(287): last checkpoint: "GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(287): last checkpoint: "GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(287): last checkpoint: "GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(287): last checkpoint: "GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenIncrementing_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(305): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenIncrementing_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(305): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenIncrementing_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(305): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenIncrementing_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(305): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(313): last checkpoint: "GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(313): last checkpoint: "GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(313): last checkpoint: "GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(313): last checkpoint: "GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(327): last checkpoint: "GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(327): last checkpoint: "GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(327): last checkpoint: "GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(327): last checkpoint: "GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(341): last checkpoint: "GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(341): last checkpoint: "GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(341): last checkpoint: "GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(341): last checkpoint: "GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenBeginIterator_WhenDecrementing_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(359): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenBeginIterator_WhenDecrementing_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(359): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenBeginIterator_WhenDecrementing_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(359): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenBeginIterator_WhenDecrementing_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(359): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDereferencing_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(371): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDereferencing_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(371): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDereferencing_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(371): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDereferencing_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(371): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenConstIterator_WhenDereferencing_ThenItemIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(377): last checkpoint: "GivenConstIterator_WhenDereferencing_ThenItemIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenConstIterator_WhenDereferencing_ThenItemIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(377): last checkpoint: "GivenConstIterator_WhenDereferencing_ThenItemIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenConstIterator_WhenDereferencing_ThenItemIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(377): last checkpoint: "GivenConstIterator_WhenDereferencing_ThenItemIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenConstIterator_WhenDereferencing_ThenItemIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(377): last checkpoint: "GivenConstIterator_WhenDereferencing_ThenItemIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenDereferencing_ThenItemCanBeChanged<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(388): last checkpoint: "GivenIterator_WhenDereferencing_ThenItemCanBeChanged" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenDereferencing_ThenItemCanBeChanged<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(388): last checkpoint: "GivenIterator_WhenDereferencing_ThenItemCanBeChanged" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenDereferencing_ThenItemCanBeChanged<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(388): last checkpoint: "GivenIterator_WhenDereferencing_ThenItemCanBeChanged" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenDereferencing_ThenItemCanBeChanged<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(388): last checkpoint: "GivenIterator_WhenDereferencing_ThenItemCanBeChanged" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(400): last checkpoint: "GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(400): last checkpoint: "GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(400): last checkpoint: "GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(400): last checkpoint: "GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(411): last checkpoint: "GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(411): last checkpoint: "GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(411): last checkpoint: "GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(411): last checkpoint: "GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(422): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(422): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(422): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(422): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(433): last checkpoint: "GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(433): last checkpoint: "GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(433): last checkpoint: "GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(433): last checkpoint: "GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(442): last checkpoint: "GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(442): last checkpoint: "GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(442): last checkpoint: "GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(442): last checkpoint: "GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(455): last checkpoint: "GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(455): last checkpoint: "GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(455): last checkpoint: "GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(455): last checkpoint: "GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(466): last checkpoint: "GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(466): last checkpoint: "GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(466): last checkpoint: "GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(466): last checkpoint: "GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(481): last checkpoint: "GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(481): last checkpoint: "GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(481): last checkpoint: "GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(481): last checkpoint: "GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(491): last checkpoint: "GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(491): last checkpoint: "GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(491): last checkpoint: "GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(491): last checkpoint: "GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(504): last checkpoint: "GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(504): last checkpoint: "GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(504): last checkpoint: "GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(504): last checkpoint: "GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(516): last checkpoint: "GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(516): last checkpoint: "GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(516): last checkpoint: "GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(516): last checkpoint: "GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(527): last checkpoint: "GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(527): last checkpoint: "GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(527): last checkpoint: "GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(527): last checkpoint: "GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(538): last checkpoint: "GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(538): last checkpoint: "GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(538): last checkpoint: "GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(538): last checkpoint: "GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(555): last checkpoint: "GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(555): last checkpoint: "GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(555): last checkpoint: "GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(555): last checkpoint: "GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenAppendingItem_ThenItemIsLast<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(567): last checkpoint: "GivenCollection_WhenAppendingItem_ThenItemIsLast" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenAppendingItem_ThenItemIsLast<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(567): last checkpoint: "GivenCollection_WhenAppendingItem_ThenItemIsLast" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenAppendingItem_ThenItemIsLast<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(567): last checkpoint: "GivenCollection_WhenAppendingItem_ThenItemIsLast" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenAppendingItem_ThenItemIsLast<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(567): last checkpoint: "GivenCollection_WhenAppendingItem_ThenItemIsLast" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(578): last checkpoint: "GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(578): last checkpoint: "GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(578): last checkpoint: "GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(578): last checkpoint: "GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(589): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(589): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(589): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(589): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingSize_ThenZeroIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(604): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingSize_ThenZeroIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(604): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingSize_ThenZeroIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(604): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingSize_ThenZeroIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(604): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(609): last checkpoint: "GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(609): last checkpoint: "GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(609): last checkpoint: "GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(609): last checkpoint: "GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(618): last checkpoint: "GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(618): last checkpoint: "GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(618): last checkpoint: "GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(618): last checkpoint: "GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(628): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(628): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(628): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(628): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(638): last checkpoint: "GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(638): last checkpoint: "GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(638): last checkpoint: "GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(638): last checkpoint: "GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(649): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(649): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(649): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(649): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(660): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(660): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(660): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(660): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(671): last checkpoint: "GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(671): last checkpoint: "GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(671): last checkpoint: "GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(671): last checkpoint: "GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(682): last checkpoint: "GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(682): last checkpoint: "GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(682): last checkpoint: "GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(682): last checkpoint: "GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingFirst_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(697): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingFirst_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(697): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingFirst_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(697): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingFirst_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(697): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingLast_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(706): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingLast_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(706): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingLast_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(706): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingLast_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(706): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(711): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(711): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(711): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(711): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(722): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(722): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(722): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(722): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(733): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(733): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(733): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(733): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(744): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(744): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(744): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(744): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(755): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(755): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(755): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(755): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(766): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(766): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(766): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(766): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(777): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(777): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(777): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(777): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(786): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(786): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(786): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(786): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenErasing_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(799): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenErasing_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(799): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenErasing_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(799): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenErasing_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(799): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(804): last checkpoint: "GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(804): last checkpoint: "GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(804): last checkpoint: "GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(804): last checkpoint: "GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(813): last checkpoint: "GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(813): last checkpoint: "GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(813): last checkpoint: "GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(813): last checkpoint: "GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(824): last checkpoint: "GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(824): last checkpoint: "GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(824): last checkpoint: "GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(824): last checkpoint: "GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(835): last checkpoint: "GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(835): last checkpoint: "GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(835): last checkpoint: "GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(835): last checkpoint: "GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(846): last checkpoint: "GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(846): last checkpoint: "GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(846): last checkpoint: "GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(846): last checkpoint: "GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(857): last checkpoint: "GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(857): last checkpoint: "GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(857): last checkpoint: "GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(857): last checkpoint: "GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(868): last checkpoint: "GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(868): last checkpoint: "GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(868): last checkpoint: "GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(868): last checkpoint: "GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(879): last checkpoint: "GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(879): last checkpoint: "GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(879): last checkpoint: "GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(879): last checkpoint: "GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(890): last checkpoint: "GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(890): last checkpoint: "GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(890): last checkpoint: "GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(890): last checkpoint: "GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(901): last checkpoint: "GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(901): last checkpoint: "GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(901): last checkpoint: "GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(901): last checkpoint: "GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(912): last checkpoint: "GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(912): last checkpoint: "GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(912): last checkpoint: "GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(912): last checkpoint: "GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(923): last checkpoint: "GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(923): last checkpoint: "GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(923): last checkpoint: "GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(923): last checkpoint: "GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenCreatedWithDefaultConstructor_ThenItIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(221): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenCreatedWithDefaultConstructor_ThenItIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(221): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenCreatedWithDefaultConstructor_ThenItIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(221): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenCreatedWithDefaultConstructor_ThenItIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(221): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(226): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(226): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(226): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(226): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItIsNoLongerEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingIterators_ThenBeginEqualsEnd<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(241): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingIterators_ThenBeginEqualsEnd<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(241): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingIterators_ThenBeginEqualsEnd<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(241): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingIterators_ThenBeginEqualsEnd<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(241): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(248): last checkpoint: "GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(248): last checkpoint: "GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(248): last checkpoint: "GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(248): last checkpoint: "GivenNonEmptyCollection_WhenGettingIterator_ThenBeginIsNotEnd" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(258): last checkpoint: "GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(258): last checkpoint: "GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(258): last checkpoint: "GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(258): last checkpoint: "GivenCollectionWithOneElement_WhenIterating_ThenElementIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(271): last checkpoint: "GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(271): last checkpoint: "GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(271): last checkpoint: "GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(271): last checkpoint: "GivenIterator_WhenPostIncrementing_ThenPreviousPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(287): last checkpoint: "GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(287): last checkpoint: "GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(287): last checkpoint: "GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(287): last checkpoint: "GivenIterator_WhenPreIncrementing_ThenNewPositionIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenIncrementing_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(305): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenIncrementing_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(305): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenIncrementing_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(305): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenIncrementing_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(305): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(313): last checkpoint: "GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(313): last checkpoint: "GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(313): last checkpoint: "GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(313): last checkpoint: "GivenEndIterator_WhenDecrementing_ThenIteratorPointsToLastItem" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(327): last checkpoint: "GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(327): last checkpoint: "GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(327): last checkpoint: "GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(327): last checkpoint: "GivenIterator_WhenPreDecrementing_ThenNewIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(341): last checkpoint: "GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(341): last checkpoint: "GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(341): last checkpoint: "GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(341): last checkpoint: "GivenIterator_WhenPostDecrementing_ThenOldIteratorValueIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenBeginIterator_WhenDecrementing_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(359): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenBeginIterator_WhenDecrementing_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(359): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenBeginIterator_WhenDecrementing_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(359): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenBeginIterator_WhenDecrementing_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(359): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDereferencing_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(371): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDereferencing_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(371): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDereferencing_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(371): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEndIterator_WhenDereferencing_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(371): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenConstIterator_WhenDereferencing_ThenItemIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(377): last checkpoint: "GivenConstIterator_WhenDereferencing_ThenItemIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenConstIterator_WhenDereferencing_ThenItemIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(377): last checkpoint: "GivenConstIterator_WhenDereferencing_ThenItemIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenConstIterator_WhenDereferencing_ThenItemIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(377): last checkpoint: "GivenConstIterator_WhenDereferencing_ThenItemIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenConstIterator_WhenDereferencing_ThenItemIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(377): last checkpoint: "GivenConstIterator_WhenDereferencing_ThenItemIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenDereferencing_ThenItemCanBeChanged<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(388): last checkpoint: "GivenIterator_WhenDereferencing_ThenItemCanBeChanged" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenDereferencing_ThenItemCanBeChanged<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(388): last checkpoint: "GivenIterator_WhenDereferencing_ThenItemCanBeChanged" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenDereferencing_ThenItemCanBeChanged<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(388): last checkpoint: "GivenIterator_WhenDereferencing_ThenItemCanBeChanged" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenDereferencing_ThenItemCanBeChanged<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(388): last checkpoint: "GivenIterator_WhenDereferencing_ThenItemCanBeChanged" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(400): last checkpoint: "GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(400): last checkpoint: "GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(400): last checkpoint: "GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(400): last checkpoint: "GivenIterator_WhenAddingInteger_ThenAdvancedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(411): last checkpoint: "GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(411): last checkpoint: "GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(411): last checkpoint: "GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(411): last checkpoint: "GivenIterator_WhenSubstractingInteger_ThenChangedIteratorIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(422): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(422): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(422): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(422): last checkpoint: "GivenEmptyCollection_WhenAddingItem_ThenItemIsInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(433): last checkpoint: "GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(433): last checkpoint: "GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(433): last checkpoint: "GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(433): last checkpoint: "GivenCollection_WhenInitializingFromList_ThenAllItemsAreInCollection" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(442): last checkpoint: "GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(442): last checkpoint: "GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(442): last checkpoint: "GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(442): last checkpoint: "GivenNonEmptyCollection_WhenCreatingCopy_ThenAllItemsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(455): last checkpoint: "GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(455): last checkpoint: "GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(455): last checkpoint: "GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(455): last checkpoint: "GivenEmptyCollection_WhenCreatingCopy_ThenBothCollectionsAreEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(466): last checkpoint: "GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(466): last checkpoint: "GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(466): last checkpoint: "GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(466): last checkpoint: "GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(481): last checkpoint: "GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(481): last checkpoint: "GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(481): last checkpoint: "GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(481): last checkpoint: "GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(491): last checkpoint: "GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(491): last checkpoint: "GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(491): last checkpoint: "GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(491): last checkpoint: "GivenNonEmptyCollection_WhenAssigningToOther_ThenAllElementsAreCopied" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(504): last checkpoint: "GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(504): last checkpoint: "GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(504): last checkpoint: "GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(504): last checkpoint: "GivenEmptyCollection_WhenAssigningToOther_ThenOtherCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(516): last checkpoint: "GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(516): last checkpoint: "GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(516): last checkpoint: "GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(516): last checkpoint: "GivenEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(527): last checkpoint: "GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(527): last checkpoint: "GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(527): last checkpoint: "GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(527): last checkpoint: "GivenNotEmptyCollection_WhenSelfAssigning_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(538): last checkpoint: "GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(538): last checkpoint: "GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(538): last checkpoint: "GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(538): last checkpoint: "GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(555): last checkpoint: "GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(555): last checkpoint: "GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(555): last checkpoint: "GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(555): last checkpoint: "GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenAppendingItem_ThenItemIsLast<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(567): last checkpoint: "GivenCollection_WhenAppendingItem_ThenItemIsLast" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenAppendingItem_ThenItemIsLast<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(567): last checkpoint: "GivenCollection_WhenAppendingItem_ThenItemIsLast" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenAppendingItem_ThenItemIsLast<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(567): last checkpoint: "GivenCollection_WhenAppendingItem_ThenItemIsLast" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenAppendingItem_ThenItemIsLast<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(567): last checkpoint: "GivenCollection_WhenAppendingItem_ThenItemIsLast" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(578): last checkpoint: "GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(578): last checkpoint: "GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(578): last checkpoint: "GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(578): last checkpoint: "GivenEmptyCollection_WhenPrependingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(589): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(589): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(589): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(589): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenItemIsFirst" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingSize_ThenZeroIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(604): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingSize_ThenZeroIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(604): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingSize_ThenZeroIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(604): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenGettingSize_ThenZeroIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(604): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(609): last checkpoint: "GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(609): last checkpoint: "GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(609): last checkpoint: "GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(609): last checkpoint: "GivenNonEmptyCollection_WhenGettingSize_ThenElementCountIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(618): last checkpoint: "GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(618): last checkpoint: "GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(618): last checkpoint: "GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(618): last checkpoint: "GivenCollection_WhenChangingIt_ThenItsSizeAlsoChanges" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(628): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(628): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(628): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(628): last checkpoint: "GivenNonEmptyCollection_WhenPrependingItem_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(638): last checkpoint: "GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(638): last checkpoint: "GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(638): last checkpoint: "GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(638): last checkpoint: "GivenEmptyCollection_WhenInsertingItem_ThenItemIsAdded" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(649): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(649): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(649): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(649): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtBegin_ThenItemIsPrepended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(660): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(660): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(660): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(660): last checkpoint: "GivenNonEmptyCollection_WhenInsertingAtEnd_ThenItemIsAppended" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(671): last checkpoint: "GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(671): last checkpoint: "GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(671): last checkpoint: "GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(671): last checkpoint: "GivenNonEmptyCollection_WhenInsertingInMiddle_ThenItemInserted" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(682): last checkpoint: "GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(682): last checkpoint: "GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(682): last checkpoint: "GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(682): last checkpoint: "GivenNonEmptyCollection_WhenInserting_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingFirst_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(697): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingFirst_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(697): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingFirst_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(697): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingFirst_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(697): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingLast_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(706): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingLast_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(706): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingLast_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(706): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenPoppingLast_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(706): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(711): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(711): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(711): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(711): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingFirst_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(722): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(722): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(722): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(722): last checkpoint: "GivenCollectionWithSingleItem_WhenPoppingLast_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(733): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(733): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(733): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(733): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(744): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(744): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(744): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(744): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenCollectionSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(755): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(755): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(755): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(755): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(766): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(766): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(766): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(766): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(777): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(777): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(777): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(777): last checkpoint: "GivenNonEmptyCollection_WhenPoppingFirst_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(786): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(786): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(786): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(786): last checkpoint: "GivenNonEmptyCollection_WhenPoppingLast_ThenItemsIsReturned" entry.
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenErasing_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(799): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenErasing_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(799): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenErasing_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(799): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenEmptyCollection_WhenErasing_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(799): last checkpoint
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(804): last checkpoint: "GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(804): last checkpoint: "GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(804): last checkpoint: "GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(804): last checkpoint: "GivenNonEmptyCollection_WhenErasingEnd_ThenOperationThrows" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(813): last checkpoint: "GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(813): last checkpoint: "GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(813): last checkpoint: "GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(813): last checkpoint: "GivenNonEmptyCollection_WhenErasingBegin_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(824): last checkpoint: "GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(824): last checkpoint: "GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(824): last checkpoint: "GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(824): last checkpoint: "GivenNonEmptyCollection_WhenErasingLastItem_ThemItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(835): last checkpoint: "GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(835): last checkpoint: "GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(835): last checkpoint: "GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(835): last checkpoint: "GivenNonEmptyCollection_WhenErasingMiddleItem_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(846): last checkpoint: "GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(846): last checkpoint: "GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(846): last checkpoint: "GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(846): last checkpoint: "GivenNonEmptyCollection_WhenErasing_ThenSizeIsReduced" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(857): last checkpoint: "GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(857): last checkpoint: "GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(857): last checkpoint: "GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(857): last checkpoint: "GivenCollectionWithSingleItem_WhenErasing_ThenCollectionIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(868): last checkpoint: "GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(868): last checkpoint: "GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(868): last checkpoint: "GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(868): last checkpoint: "GivenNonEmptyCollection_WhenErasingEmptyRange_ThenNothingHappens" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(879): last checkpoint: "GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(879): last checkpoint: "GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(879): last checkpoint: "GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(879): last checkpoint: "GivenNonEmptyCollection_WhenErasingRangeFromBegin_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(890): last checkpoint: "GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(890): last checkpoint: "GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(890): last checkpoint: "GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(890): last checkpoint: "GivenNonEmptyCollection_whenErasingRangeToEnd_ThenItemsAreRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(901): last checkpoint: "GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(901): last checkpoint: "GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(901): last checkpoint: "GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(901): last checkpoint: "GivenNonEmptyCollection_WhenErasingSingleItemRange_ThenItemIsRemoved" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(912): last checkpoint: "GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(912): last checkpoint: "GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(912): last checkpoint: "GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(912): last checkpoint: "GivenNonEmptyCollection_WhenErasingWholeRange_ThenCollectinIsEmpty" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated<i>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(923): last checkpoint: "GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated<m>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(923): last checkpoint: "GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated<St7complexIiE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/LinkedListTests.cpp(923): last checkpoint: "GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated" entry.
+unknown location(0): fatal error: in "VectorTests/GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated<N12_GLOBAL__N_123OperationCountingObjectE>": std::runtime_error: TODO
+/home/sciart/Desktop/Liniowe/tests/VectorTests.cpp(923): last checkpoint: "GivenNonEmptyCollection_WhenErasingRange_ThenSizeIsUpdated" entry.
+
+*** 512 failures are detected in the test module "aisdi_linear_tests"
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"boostUnitTestsRun" end time: Nov 11 20:47 CET
+"boostUnitTestsRun" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 11 20:47 CET
