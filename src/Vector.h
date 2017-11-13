@@ -183,7 +183,8 @@ public:
 
     void erase(const const_iterator& possition)
     {
-        for( size_type i = possition.index_in_array; i < first_empty)
+       (void)possition;
+       // for( size_type i = possition.index_in_array; i < first_empty);
     }
 
     void erase(const const_iterator& firstIncluded, const const_iterator& lastExcluded)
@@ -321,10 +322,11 @@ public:
         return ( ptr_to_vector != other.ptr_to_vector || ptr_to_element != other.ptr_to_element );
     }
 
+    size_type index_in_array;
 private:
     const Vector<Type>* ptr_to_vector;
     pointer ptr_to_element;
-    size_type index_in_array;
+
 };
 
 template <typename Type>
