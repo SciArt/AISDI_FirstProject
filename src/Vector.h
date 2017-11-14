@@ -5,6 +5,8 @@
 #include <initializer_list>
 #include <stdexcept>
 
+#include <iostream>
+
 namespace aisdi
 {
 
@@ -134,6 +136,10 @@ public:
     // OK
     void prepend(const Type& item)
     {
+        std::cout << "Przed:\n";
+        for( auto it = begin(); it != end(); ++it )
+            std::cout << (*it) << " ";
+        std::cout << std::endl;
         if( size_of_container-first_empty <= 0 )
         {
             allocate_more_space( true );
@@ -151,6 +157,12 @@ public:
         }
         ++first_empty;
         array[0] = item;
+
+        std::cout << "Sprawdzenie:\n";
+        for( auto it = begin(); it != end(); ++it )
+            std::cout << (*it) << " ";
+        std::cout << std::endl;
+        std::cout << "Koniec sprawdzenia\n";
     }
 
     // OK
