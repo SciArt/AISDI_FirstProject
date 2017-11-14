@@ -140,9 +140,11 @@ public:
         for( auto it = begin(); it != end(); ++it )
             std::cout << (*it) << " ";
         std::cout << std::endl;
-        if( size_of_container-first_empty <= 0 )
+        std::cout << "size: " << size_of_container << std::endl;;
+        if( size_of_container <= first_empty )
         {
             allocate_more_space( true );
+            std::cout << "size: " << size_of_container << std::endl;;
         }
         else
         {
@@ -151,9 +153,10 @@ public:
             //    array[i+1] = array[i];
 
             for( size_type i = first_empty; i > 0; --i )
+            {
+                std::cout << array[i] << "<-->" << array[i-1] << std::endl;
                 array[i] = array[i-1];
-
-
+            }
         }
         ++first_empty;
         array[0] = item;
@@ -171,12 +174,12 @@ public:
         if( insertPosition.index_in_array > first_empty )
             throw std::out_of_range("insert(): there is no such a place in array");
 
-        if( size_of_container-first_empty <= 0 )
+        if( size_of_container <= first_empty )
             allocate_more_space();
 
-        for(size_type i = insertPosition.index_in_array; i < first_empty; ++i)
+        for(size_type i = first_empty; i > insertPosition.index_in_array; --i)
         {
-            array[i+1] = array[i];
+            array[i] = array[i-1];
         }
         ++first_empty;
         array[insertPosition.index_in_array] = item;
@@ -219,6 +222,34 @@ public:
     void erase(const const_iterator& firstIncluded, const const_iterator& lastExcluded)
     {
         // ZROBIC OUT OF RANGE
+
+        if( firstIncluded == lastExcluded )
+            return;
+
+        /// First situation    [#,#,#, , , , , , ]
+
+        if( firstIncluded == begin() )
+        {
+            for( size_type i = 0; i < lastExcluded.index_in_array; ++i )
+                array[i] = array[i+lastExcluded.index_in_array];
+            first_empty -= lastExcluded.index_in_array;
+        }
+
+        /// Second situation   [ , , ,#,#,#, , , ]
+
+        else if( firstIncluded.index_in_array > 0 && lastExcluded.index_in_array < first_empty-1 )
+        {
+            for( size_type i = firstIncluded.index_in_array; i < first_empty; ++i )
+                array[i] = array[i+lastExcluded.index_in_array];
+            first_empty -= lastExcluded.index_in_array - firstIncluded.index_in_array;
+        }
+
+        /// Third situation    [ , , , , , ,#,#,#]
+
+
+
+        /*
+
         if( lastExcluded.index_in_array + 1 > first_empty )
         {
             first_empty = firstIncluded.index_in_array;
@@ -228,6 +259,7 @@ public:
             array[firstIncluded.index_in_array+1] = array[lastExcluded.index_in_array+1];
             first_empty = firstIncluded.index_in_array+1;
         }
+        */
     }
 
     iterator begin()
@@ -278,10 +310,11 @@ private:
 
     void allocate_more_space( bool first_element_empty = false )
     {
+        //(void)first_element_empty;
         value_type* tmp = new value_type[size_of_container+size_of_preallocate];
 
-        for( size_type i = first_element_empty ? 1 : 0; i < size_of_container; ++i )
-            tmp[i] = array[i];
+        for( size_type i = (first_element_empty ? 1 : 0), j = 0; j < size_of_container; ++i, ++j )
+            tmp[i] = array[j];
 
         size_of_container += size_of_preallocate;
 
