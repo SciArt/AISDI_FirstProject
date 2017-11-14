@@ -173,6 +173,8 @@ public:
     // OK
     Type popFirst()
     {
+        if( isEmpty() )
+            throw std::logic_error("popFirst when empty collection");
         value_type tmp = array[0];
 
         for( size_type i = 1; i < first_empty; ++i )
@@ -186,6 +188,8 @@ public:
     // OK
     Type popLast()
     {
+        if( isEmpty() )
+            throw std::logic_error("popLast when empty collection");
         return array[--first_empty];
     }
 
