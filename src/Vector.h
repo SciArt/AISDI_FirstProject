@@ -125,34 +125,36 @@ public:
             allocate_more_space();
 
         array[first_empty] = item;
+        ++first_empty;
     }
 
     // OK
     void prepend(const Type& item)
     {
-       if( size_of_container-first_empty <= 0 )
-       {
+        if( size_of_container-first_empty <= 0 )
+        {
             allocate_more_space( true );
-       }
-       else
-       {
+        }
+        else
+        {
             // Moving all elements by 1
             for( size_type i = 0; i < first_empty; ++i )
                 array[i+1] = array[i];
 
-            ++first_empty;
-       }
 
-       array[0] = item;
+        }
+        ++first_empty;
+        array[0] = item;
     }
 
-    // TODO
+    // OK
     void insert(const const_iterator& insertPosition, const Type& item)
     {
-        if( size_of_container <= 0 )
-            allocate_more_space();
+        if( insertPosition.index_in_array > first_empty )
+            throw std::out_of_range("insert(): there is no such a place in array");
 
-        // TODO i need iterator
+        if( size_of_container-first_empty <= 0 )
+            allocate_more_space();
 
         for(size_type i = insertPosition.index_in_array; i < first_empty; ++i)
         {
@@ -181,37 +183,57 @@ public:
         return array[--first_empty];
     }
 
+    // OK
     void erase(const const_iterator& possition)
     {
-       (void)possition;
-       // for( size_type i = possition.index_in_array; i < first_empty);
+        if( possition.index_in_array >= first_empty )
+            throw std::out_of_range("erase() - there are no elements to delete!");
+
+        --first_empty;
+        for( size_type i = possition.index_in_array; i < first_empty; ++i )
+            array[i] = array[i+1];
     }
 
     void erase(const const_iterator& firstIncluded, const const_iterator& lastExcluded)
     {
-        (void)firstIncluded;
-        (void)lastExcluded;
-        throw std::runtime_error("TODO");
+        // ZROBIC OUT OF RANGE
+        if( lastExcluded.index_in_array + 1 > first_empty )
+        {
+            first_empty = firstIncluded.index_in_array;
+        }
+        else
+        {
+            array[firstIncluded.index_in_array+1] = array[lastExcluded.index_in_array+1];
+            first_empty = firstIncluded.index_in_array+1;
+        }
     }
 
     iterator begin()
     {
-        throw std::runtime_error("TODO");
+        return const_iterator(cbegin());
     }
 
     iterator end()
     {
-        throw std::runtime_error("TODO");
+        return const_iterator(cend());
     }
 
     const_iterator cbegin() const
     {
-        throw std::runtime_error("TODO");
+        const_iterator it;
+        it.index_in_array = 0;
+        it.ptr_to_element = array;
+        it.ptr_to_vector = this;
+        return it;
     }
 
     const_iterator cend() const
     {
-        throw std::runtime_error("TODO");
+        const_iterator it;
+        it.index_in_array = first_empty;
+        it.ptr_to_element = array+it.index_in_array;
+        it.ptr_to_vector = this;
+        return it;
     }
 
     const_iterator begin() const
@@ -249,6 +271,7 @@ private:
 template <typename Type>
 class Vector<Type>::ConstIterator
 {
+friend class Vector;
 public:
     using iterator_category = std::bidirectional_iterator_tag;
     using value_type = typename Vector::value_type;
@@ -265,11 +288,16 @@ public:
 
     reference operator*() const
     {
+        if( (*this) == ptr_to_vector->cend() )
+            throw std::out_of_range("Dereferencing out of range.");
         return *ptr_to_element;
     }
 
     ConstIterator& operator++()
     {
+        if( (*this) == ptr_to_vector->cend() )
+            throw std::out_of_range("++iterator out of range");
+
         ++ptr_to_element;
         ++index_in_array;
         return *this;
@@ -284,6 +312,9 @@ public:
 
     ConstIterator& operator--()
     {
+        if( (*this) == ptr_to_vector->cbegin() )
+            throw std::out_of_range("--iterator out of range");
+
         --ptr_to_element;
         --index_in_array;
         return *this;
@@ -301,6 +332,7 @@ public:
         ConstIterator tmp = *this;
         tmp.ptr_to_element += d;
         tmp.index_in_array += d;
+
         return tmp;
     }
 
@@ -322,8 +354,8 @@ public:
         return ( ptr_to_vector != other.ptr_to_vector || ptr_to_element != other.ptr_to_element );
     }
 
-    size_type index_in_array;
 private:
+    size_type index_in_array;
     const Vector<Type>* ptr_to_vector;
     pointer ptr_to_element;
 
