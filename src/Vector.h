@@ -79,6 +79,9 @@ public:
     // OK - but it might be worth checking if errors occur
     Vector& operator=(const Vector& other)
     {
+        if( array == other.array )
+            return *this;
+
         delete[] array;
         array = nullptr;
         first_empty = 0;
@@ -138,8 +141,11 @@ public:
         else
         {
             // Moving all elements by 1
-            for( size_type i = 0; i < first_empty; ++i )
-                array[i+1] = array[i];
+            //for( size_type i = 0; i < first_empty; ++i )
+            //    array[i+1] = array[i];
+
+            for( size_type i = first_empty; i > 0; --i )
+                array[i] = array[i-1];
 
 
         }
