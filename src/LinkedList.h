@@ -26,63 +26,133 @@ public:
     using const_iterator = ConstIterator;
 
     LinkedList()
-    {}
+    {
+        head = new Node;
+        tail = new Node;
+
+        head->next = tail;
+        head->prev = nullptr;
+        tail->next = nullptr;
+        tail->prev = head;
+
+        size_of_container = 0;
+    }
 
     LinkedList(std::initializer_list<Type> l)
     {
-        (void)l; // disables "unused argument" warning, can be removed when method is implemented.
-        throw std::runtime_error("TODO");
+        head = new Node;
+        tail = new Node;
+
+        head->next = tail;
+        head->prev = nullptr;
+        tail->next = nullptr;
+        tail->prev = head;
+
+        size_of_container = 0;
+
+        for( auto it = l.begin(); it != l.end(); ++it )
+            append(*it);
     }
 
     LinkedList(const LinkedList& other)
     {
-        (void)other;
-        throw std::runtime_error("TODO");
+        head = new Node;
+        tail = new Node;
+
+        head->next = tail;
+        head->prev = nullptr;
+        tail->next = nullptr;
+        tail->prev = head;
+
+        size_of_container = 0;
+
+        for( auto it = other.begin(); it != other.end(); ++it )
+            append(*it);
     }
 
     LinkedList(LinkedList&& other)
     {
-        (void)other;
-        throw std::runtime_error("TODO");
+        head = other.head;
+        tail = other.tail;
+        size_of_container = other.size_of_container;
+
+        other.head = nullptr;
+        other.tail = nullptr;
+        other.size_of_container = 0;
     }
 
     ~LinkedList()
-    {}
+    {
+        erase( begin(), end() );
+        delete head;
+        delete tail;
+    }
 
     LinkedList& operator=(const LinkedList& other)
     {
-        (void)other;
-        throw std::runtime_error("TODO");
+        erase( begin(), end() );
+
+        for( auto it = other.begin(); it != other.end(); ++it )
+            append(*it);
+
+        return *this;
     }
 
     LinkedList& operator=(LinkedList&& other)
     {
-        (void)other;
-        throw std::runtime_error("TODO");
+        erase( begin(), end() );
+
+        head = other.head;
+        tail = other.tail;
+        size_of_container = other.size_of_container;
+
+        /// We can make a new head and tail if we want to keep 'other' operative
+        other.head = nullptr;
+        other.tail = nullptr;
+        other.size_of_container = 0;
     }
 
     bool isEmpty() const
     {
-    throw std::runtime_error("TODO");
+        return ( head->next == tail ); // Or just ( size_of_container == 0 )
     }
 
     size_type getSize() const
     {
-    throw std::runtime_error("TODO");
+        return size_of_container;
     }
 
+    // OK
     void append(const Type& item)
     {
-        (void)item;
-        throw std::runtime_error("TODO");
+        Node* new_node = new Node;
+
+        tail->prev->next = new_node;
+
+        new_node->next = tail;
+        new_node->prev = tail->prev;
+
+        tail->prev = new_node;
+
+        new_node->value = item;
     }
 
+    // OK
     void prepend(const Type& item)
     {
-        (void)item;
-        throw std::runtime_error("TODO");
+        Node* new_node = new Node;
+
+        head->next->prev = new_node;
+
+        new_node->prev = head;
+        new_node->next = head->next;
+
+        head->next = new_node;
+
+        new_node->value = item;
     }
 
+    /// NEED ITERATOR
     void insert(const const_iterator& insertPosition, const Type& item)
     {
         (void)insertPosition;
@@ -142,6 +212,21 @@ public:
     {
         return cend();
     }
+
+private:
+
+    size_type size_of_container;
+
+    struct Node
+    {
+        value_type value;
+        Node *next;
+        Node *prev;
+    };
+
+    // head and tail acts as a guardians
+    Node* head;
+    Node* tail;
 };
 
 template <typename Type>
@@ -205,6 +290,7 @@ public:
         (void)other;
         throw std::runtime_error("TODO");
     }
+
 };
 
 template <typename Type>
