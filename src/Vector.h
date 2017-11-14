@@ -228,7 +228,11 @@ public:
 
         /// First situation    [#,#,#, , , , , , ]
 
-        if( firstIncluded == begin() )
+        if( firstIncluded.index_in_array == lastExcluded.index_in_array-1 )
+        {
+            erase(firstIncluded);
+        }
+        else if( firstIncluded == begin() )
         {
             for( size_type i = 0; i < lastExcluded.index_in_array; ++i )
                 array[i] = array[i+lastExcluded.index_in_array];
@@ -246,9 +250,10 @@ public:
 
         /// Third situation    [ , , , , , ,#,#,#]
 
-        else if( firstIncluded.index_in_array > 0 && lastExcluded.index_in_array = first_empty)
-
-
+        else if( firstIncluded.index_in_array > 0 && lastExcluded.index_in_array == first_empty)
+        {
+            first_empty = firstIncluded.index_in_array;
+        }
         /// Else... OUT OF RANGE
         else
             throw std::out_of_range("erase() out of range.");
