@@ -475,6 +475,7 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(GivenEmptyCollection_WhenCreatingCopy_ThenBothColl
   thenMovedObjectsCountWas<T>(0);
   thenDestroyedObjectsCountWas<T>(3);
 }*/
+
 BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved,
                               T,
                               TestedTypes)

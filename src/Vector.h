@@ -27,7 +27,6 @@ public:
     using iterator = Iterator;
     using const_iterator = ConstIterator;
 
-    // OK
     Vector()
     {
         first_empty = 0;
@@ -35,7 +34,6 @@ public:
         array = nullptr;
     }
 
-    // OK
     Vector(std::initializer_list<Type> l)
     {
         first_empty = 0;
@@ -46,7 +44,6 @@ public:
             append( *it );
     }
 
-    // OK
     Vector(const Vector& other)
     {
         first_empty = 0;
@@ -57,7 +54,6 @@ public:
             append( *it );
     }
 
-    // OK
     Vector(Vector&& other)
     {
         // Copying data from 'other'
@@ -71,14 +67,12 @@ public:
         other.size_of_container = 0;
     }
 
-    // OK
     ~Vector()
     {
         // Just delete all data in array
         delete[] array;
     }
 
-    // OK - but it might be worth checking if errors occur
     Vector& operator=(const Vector& other)
     {
         if( array == other.array )
@@ -95,7 +89,6 @@ public:
         return *this;
     }
 
-    // OK ?
     Vector& operator=(Vector&& other)
     {
         delete[] array;
@@ -111,19 +104,16 @@ public:
         return *this;
     }
 
-    // OK
     bool isEmpty() const
     {
         return (first_empty == 0);
     }
 
-    // OK
     size_type getSize() const
     {
         return first_empty;
     }
 
-    // OK
     void append(const Type& item)
     {
         if( size_of_container-first_empty <= 0 )
@@ -133,42 +123,23 @@ public:
         ++first_empty;
     }
 
-    // OK
     void prepend(const Type& item)
     {
-        std::cout << "Przed:\n";
-        for( auto it = begin(); it != end(); ++it )
-            std::cout << (*it) << " ";
-        std::cout << std::endl;
-        std::cout << "size: " << size_of_container << std::endl;;
         if( size_of_container <= first_empty )
         {
             allocate_more_space( true );
-            std::cout << "size: " << size_of_container << std::endl;;
         }
         else
         {
-            // Moving all elements by 1
-            //for( size_type i = 0; i < first_empty; ++i )
-            //    array[i+1] = array[i];
-
             for( size_type i = first_empty; i > 0; --i )
             {
-                std::cout << array[i] << "<-->" << array[i-1] << std::endl;
                 array[i] = array[i-1];
             }
         }
         ++first_empty;
         array[0] = item;
-
-        std::cout << "Sprawdzenie:\n";
-        for( auto it = begin(); it != end(); ++it )
-            std::cout << (*it) << " ";
-        std::cout << std::endl;
-        std::cout << "Koniec sprawdzenia\n";
     }
 
-    // OK
     void insert(const const_iterator& insertPosition, const Type& item)
     {
         if( insertPosition.index_in_array > first_empty )
@@ -185,7 +156,6 @@ public:
         array[insertPosition.index_in_array] = item;
     }
 
-    // OK
     Type popFirst()
     {
         if( isEmpty() )
@@ -200,7 +170,6 @@ public:
         return tmp;
     }
 
-    // OK
     Type popLast()
     {
         if( isEmpty() )
@@ -208,7 +177,6 @@ public:
         return array[--first_empty];
     }
 
-    // OK
     void erase(const const_iterator& possition)
     {
         if( possition.index_in_array >= first_empty )
@@ -221,8 +189,8 @@ public:
 
     void erase(const const_iterator& firstIncluded, const const_iterator& lastExcluded)
     {
-        // ZROBIC OUT OF RANGE
 
+        /// If empty range do nothing
         if( firstIncluded == lastExcluded )
             return;
 
@@ -254,23 +222,10 @@ public:
         {
             first_empty = firstIncluded.index_in_array;
         }
+
         /// Else... OUT OF RANGE
         else
             throw std::out_of_range("erase() out of range.");
-
-
-        /*
-
-        if( lastExcluded.index_in_array + 1 > first_empty )
-        {
-            first_empty = firstIncluded.index_in_array;
-        }
-        else
-        {
-            array[firstIncluded.index_in_array+1] = array[lastExcluded.index_in_array+1];
-            first_empty = firstIncluded.index_in_array+1;
-        }
-        */
     }
 
     iterator begin()
@@ -321,7 +276,6 @@ private:
 
     void allocate_more_space( bool first_element_empty = false )
     {
-        //(void)first_element_empty;
         value_type* tmp = new value_type[size_of_container+size_of_preallocate];
 
         for( size_type i = (first_element_empty ? 1 : 0), j = 0; j < size_of_container; ++i, ++j )
