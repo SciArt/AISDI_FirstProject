@@ -111,7 +111,7 @@ std::size_t OperationCountingObject::copiedObjects = 0;
 std::size_t OperationCountingObject::movedObjects = 0;
 std::size_t OperationCountingObject::assignedObjects = 0 ;
 
-/*std::ostream& operator<<(std::ostream& out, const OperationCountingObject& obj)
+std::ostream& operator<<(std::ostream& out, const OperationCountingObject& obj)
 {
   return out << '<' << static_cast<int>(obj) << '>';
 }
@@ -931,5 +931,5 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenErasingRange_ThenSizeI
 
 // ConstIterator is tested via Iterator methods.
 // If Iterator methods are to be changed, then new ConstIterator tests are required.
-*/
+
 BOOST_AUTO_TEST_SUITE_END()

@@ -110,6 +110,8 @@ public:
         other.head = nullptr;
         other.tail = nullptr;
         other.size_of_container = 0;
+
+        return *this;
     }
 
     bool isEmpty() const
@@ -135,6 +137,8 @@ public:
         tail->prev = new_node;
 
         new_node->value = item;
+
+        ++size_of_container;
     }
 
     // OK
@@ -150,24 +154,41 @@ public:
         head->next = new_node;
 
         new_node->value = item;
+
+        ++size_of_container;
     }
 
     /// NEED ITERATOR
     void insert(const const_iterator& insertPosition, const Type& item)
     {
-        (void)insertPosition;
+        (void)insertPosition.ptr_to_node;
         (void)item;
-        throw std::runtime_error("TODO");
     }
 
     Type popFirst()
     {
-        throw std::runtime_error("TODO");
+        Node* node = head->next;
+        value_type tmp = node->value;
+        head->next = node->next;
+        head->next->prev = head;
+
+        delete node;
+        --size_of_container;
+
+        return tmp;
     }
 
     Type popLast()
     {
-        throw std::runtime_error("TODO");
+        Node* node = tail->prev;
+        value_type tmp = node->value;
+        tail->prev = node->prev;
+        tail->prev->next = tail;
+
+        delete node;
+        --size_of_container;
+
+        return tmp;
     }
 
     void erase(const const_iterator& possition)
@@ -185,12 +206,12 @@ public:
 
     iterator begin()
     {
-        throw std::runtime_error("TODO");
+        return const_iterator(cbegin());
     }
 
     iterator end()
     {
-        throw std::runtime_error("TODO");
+        return const_iterator(cbegin());
     }
 
     const_iterator cbegin() const
@@ -232,6 +253,7 @@ private:
 template <typename Type>
 class LinkedList<Type>::ConstIterator
 {
+friend class LinkedList;
 public:
     using iterator_category = std::bidirectional_iterator_tag;
     using value_type = typename LinkedList::value_type;
@@ -240,56 +262,92 @@ public:
     using reference = typename LinkedList::const_reference;
 
     explicit ConstIterator()
-    {}
+    {
+        ptr_to_node = nullptr;
+    }
 
     reference operator*() const
     {
-        throw std::runtime_error("TODO");
+        if( ptr_to_node == nullptr || ptr_to_node->prev == nullptr || ptr_to_node->next == nullptr )
+            throw std::out_of_range("Dereferencing out of range.");
+
+        return ptr_to_node->value;
     }
 
     ConstIterator& operator++()
     {
-        throw std::runtime_error("TODO");
+        if( ptr_to_node->next == nullptr )
+            throw std::out_of_range("++iterator out of range");
+
+        ptr_to_node = ptr_to_node->next;
+        return *this;
     }
 
     ConstIterator operator++(int)
     {
-        throw std::runtime_error("TODO");
+        ConstIterator tmp = *this;
+        ++(*this);
+        return tmp;
     }
 
     ConstIterator& operator--()
     {
-        throw std::runtime_error("TODO");
+        if( ptr_to_node->prev == nullptr )
+            throw std::out_of_range("++iterator out of range");
+
+        ptr_to_node = ptr_to_node->prev;
+        return *this;
     }
 
     ConstIterator operator--(int)
     {
-        throw std::runtime_error("TODO");
+        ConstIterator tmp = *this;
+        --(*this);
+        return tmp;
     }
 
     ConstIterator operator+(difference_type d) const
     {
-        (void)d;
-        throw std::runtime_error("TODO");
+        ConstIterator tmp = *this;
+
+        while( d > 0 )
+        {
+            if( tmp.ptr_to_node->next == nullptr )
+                throw std::out_of_range("operator+ out of range");
+
+            tmp.ptr_to_node = tmp.ptr_to_node->next;
+        }
+
+        return tmp;
     }
 
     ConstIterator operator-(difference_type d) const
     {
-        (void)d;
-        throw std::runtime_error("TODO");
+        ConstIterator tmp = *this;
+
+        while( d > 0 )
+        {
+            if( tmp.ptr_to_node->prev == nullptr )
+                throw std::out_of_range("operator- out of range");
+
+            tmp.ptr_to_node = tmp.ptr_to_node->prev;
+        }
+
+        return tmp;
     }
 
     bool operator==(const ConstIterator& other) const
     {
-        (void)other;
-        throw std::runtime_error("TODO");
+        return ( ptr_to_node == other.ptr_to_node );
     }
 
     bool operator!=(const ConstIterator& other) const
     {
-        (void)other;
-        throw std::runtime_error("TODO");
+        return ( ptr_to_node != other.ptr_to_node );
     }
+
+private:
+    LinkedList<Type>::Node* ptr_to_node;
 
 };
 

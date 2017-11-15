@@ -230,12 +230,12 @@ public:
 
     iterator begin()
     {
-        return const_iterator(cbegin());
+        return iterator(cbegin());
     }
 
     iterator end()
     {
-        return const_iterator(cend());
+        return iterator(cend());
     }
 
     const_iterator cbegin() const
