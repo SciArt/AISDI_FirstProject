@@ -161,8 +161,27 @@ public:
     /// NEED ITERATOR
     void insert(const const_iterator& insertPosition, const Type& item)
     {
-        (void)insertPosition.ptr_to_node;
-        (void)item;
+        if( insertPosition.ptr_to_node == nullptr )
+            std::out_of_range("insert() iterator doesn't point to a anything");
+
+        Node* new_node = new Node;
+        new_node->value = item;
+
+        if( insertPosition.ptr_to_node->next == nullptr ) // so it is tail
+        {
+            new_node->prev = insertPosition.ptr_to_node->prev;
+            new_node->prev->next = new_node;
+            new_node->next = insertPosition.ptr_to_node;
+            insertPosition.ptr_to_node->prev = new_node;
+        }
+        else // so it is head or something before tail
+        {
+            new_node->prev = insertPosition.ptr_to_node;
+            new_node->next = insertPosition.ptr_to_node->next;
+            new_node->next->prev = new_node;
+            insertPosition.ptr_to_node->next = new_node;
+        }
+
     }
 
     Type popFirst()
