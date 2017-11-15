@@ -461,7 +461,7 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(GivenEmptyCollection_WhenCreatingCopy_ThenBothColl
   BOOST_CHECK(collection.isEmpty());
 }
 
-BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved,
+/*BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved,
                               T,
                               TestedTypes)
 {
@@ -474,6 +474,23 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenMovingToOther_ThenAllI
   thenAssignedObjectsCountWas<T>(0);
   thenMovedObjectsCountWas<T>(0);
   thenDestroyedObjectsCountWas<T>(3);
+}*/
+
+BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenMovingToOther_ThenAllItemsAreMoved,
+                              T,
+                              TestedTypes)
+{
+  LinearCollection<T> collection = { 1410, 753, 1789 };
+
+  OperationCountingObject::resetCounters();
+  LinearCollection<T> other{std::move(collection)};
+
+  thenCollectionContainsValues(other, { 1410, 753, 1789 });
+  thenConstructedObjectsCountWas<T>(0);
+  thenCopiedObjectsCountWas<T>(0);
+  thenAssignedObjectsCountWas<T>(0);
+  thenMovedObjectsCountWas<T>(0);
+  thenDestroyedObjectsCountWas<T>(0);
 }
 
 BOOST_AUTO_TEST_CASE_TEMPLATE(GivenEmptyCollection_WhenMovingToOther_ThenSecondCollectionsIsEmpty,
@@ -533,7 +550,7 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNotEmptyCollection_WhenSelfAssigning_ThenNoth
   thenCollectionContainsValues(collection, { 100, 200, 300, 400 });
 }
 
-BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved,
+/*BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved,
                               T,
                               TestedTypes)
 {
@@ -548,6 +565,24 @@ BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenMoveAssigning_ThenAllE
   thenAssignedObjectsCountWas<T>(0);
   thenMovedObjectsCountWas<T>(0);
   thenDestroyedObjectsCountWas<T>(12);
+}*/
+
+BOOST_AUTO_TEST_CASE_TEMPLATE(GivenNonEmptyCollection_WhenMoveAssigning_ThenAllElementsAreMoved,
+                              T,
+                              TestedTypes)
+{
+  LinearCollection<T> collection = { 1, 2, 3, 4 };
+  LinearCollection<T> other = { 100, 200, 300, 400 };
+
+  OperationCountingObject::resetCounters();
+  other = std::move(collection);
+
+  thenCollectionContainsValues(other, { 1, 2, 3, 4 });
+  thenConstructedObjectsCountWas<T>(0);
+  thenCopiedObjectsCountWas<T>(0);
+  thenAssignedObjectsCountWas<T>(0);
+  thenMovedObjectsCountWas<T>(0);
+  thenDestroyedObjectsCountWas<T>(4);
 }
 
 BOOST_AUTO_TEST_CASE_TEMPLATE(GivenEmptyCollection_WhenMoveAssigning_ThenNewCollectionIsEmpty,
