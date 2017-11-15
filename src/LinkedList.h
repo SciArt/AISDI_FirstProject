@@ -5,6 +5,8 @@
 #include <initializer_list>
 #include <stdexcept>
 
+#include <iostream>
+
 namespace aisdi
 {
 
@@ -38,33 +40,14 @@ public:
         size_of_container = 0;
     }
 
-    LinkedList(std::initializer_list<Type> l)
+    LinkedList(std::initializer_list<Type> l) : LinkedList()
     {
-        head = new Node;
-        tail = new Node;
-
-        head->next = tail;
-        head->prev = nullptr;
-        tail->next = nullptr;
-        tail->prev = head;
-
-        size_of_container = 0;
-
         for( auto it = l.begin(); it != l.end(); ++it )
             append(*it);
     }
 
-    LinkedList(const LinkedList& other)
+    LinkedList(const LinkedList& other) : LinkedList()
     {
-        head = new Node;
-        tail = new Node;
-
-        head->next = tail;
-        head->prev = nullptr;
-        tail->next = nullptr;
-        tail->prev = head;
-
-        size_of_container = 0;
 
         for( auto it = other.begin(); it != other.end(); ++it )
             append(*it);
@@ -127,6 +110,7 @@ public:
     // OK
     void append(const Type& item)
     {
+        //std::cout << "Append: " << item << std::endl;
         Node* new_node = new Node;
 
         tail->prev->next = new_node;
@@ -186,6 +170,9 @@ public:
 
     Type popFirst()
     {
+        if( isEmpty() )
+            throw std::out_of_range("Empty list");
+
         Node* node = head->next;
         value_type tmp = node->value;
         head->next = node->next;
@@ -199,6 +186,9 @@ public:
 
     Type popLast()
     {
+        if( isEmpty() )
+            throw std::out_of_range("Empty list");
+
         Node* node = tail->prev;
         value_type tmp = node->value;
         tail->prev = node->prev;
@@ -212,15 +202,22 @@ public:
 
     void erase(const const_iterator& possition)
     {
-        (void)possition;
-        throw std::runtime_error("TODO");
+        if( possition.ptr_to_node == nullptr || possition.ptr_to_node->next == nullptr || possition.ptr_to_node->prev == nullptr )
+            throw std::out_of_range("Cannnot erase guardian");
+
+        possition.ptr_to_node->next->prev = possition.ptr_to_node->prev;
+        possition.ptr_to_node->prev->next = possition.ptr_to_node->next;
+        delete possition.ptr_to_node;
     }
 
     void erase(const const_iterator& firstIncluded, const const_iterator& lastExcluded)
     {
-        (void)firstIncluded;
-        (void)lastExcluded;
-        throw std::runtime_error("TODO");
+        for( auto it1 = firstIncluded; it1 != lastExcluded; )
+        {
+            auto it2 = it1 + 1;
+            erase(it1);
+            it1 = it2;
+        }
     }
 
     iterator begin()
@@ -243,7 +240,7 @@ public:
     const_iterator cend() const
     {
         ConstIterator it;
-        it.ptr_to_node = tail->prev;
+        it.ptr_to_node = tail;
         return it;
     }
 
@@ -315,7 +312,7 @@ public:
 
     ConstIterator& operator--()
     {
-        if( ptr_to_node->prev == nullptr )
+        if( ptr_to_node->prev->prev == nullptr )
             throw std::out_of_range("++iterator out of range");
 
         ptr_to_node = ptr_to_node->prev;
@@ -338,7 +335,10 @@ public:
             if( tmp.ptr_to_node->next == nullptr )
                 throw std::out_of_range("operator+ out of range");
 
-            tmp.ptr_to_node = tmp.ptr_to_node->next;
+            //tmp.ptr_to_node = tmp.ptr_to_node->next;
+
+            ++tmp;
+            --d;
         }
 
         return tmp;
@@ -353,7 +353,9 @@ public:
             if( tmp.ptr_to_node->prev == nullptr )
                 throw std::out_of_range("operator- out of range");
 
-            tmp.ptr_to_node = tmp.ptr_to_node->prev;
+            //tmp.ptr_to_node = tmp.ptr_to_node->prev;
+            --tmp;
+            --d;
         }
 
         return tmp;
