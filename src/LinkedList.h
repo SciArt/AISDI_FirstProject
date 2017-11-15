@@ -225,22 +225,26 @@ public:
 
     iterator begin()
     {
-        return const_iterator(cbegin());
+        return iterator(cbegin());
     }
 
     iterator end()
     {
-        return const_iterator(cbegin());
+        return iterator(cbegin());
     }
 
     const_iterator cbegin() const
     {
-        throw std::runtime_error("TODO");
+        ConstIterator it;
+        it.ptr_to_node = head->next;
+        return it;
     }
 
     const_iterator cend() const
     {
-        throw std::runtime_error("TODO");
+        ConstIterator it;
+        it.ptr_to_node = tail->prev;
+        return it;
     }
 
     const_iterator begin() const
