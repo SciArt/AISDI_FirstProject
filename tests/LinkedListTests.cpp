@@ -137,7 +137,7 @@ using TestedTypes = boost::mpl::list<std::int32_t,
 using std::begin;
 using std::end;
 
-BOOST_FIXTURE_TEST_SUITE(VectorTests, Fixture)
+BOOST_FIXTURE_TEST_SUITE(ListTests, Fixture)
 
 template <typename T>
 void thenCollectionContainsValues(const LinearCollection<T>& collection,

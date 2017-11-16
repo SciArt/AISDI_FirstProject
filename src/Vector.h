@@ -203,7 +203,16 @@ public:
         {
             erase(firstIncluded);
         }
-        else if( firstIncluded == begin() )
+        else if( firstIncluded.index_in_array >= 0 && lastExcluded.index_in_array <= first_empty )
+        {
+            for( size_type i = firstIncluded.index_in_array, j = lastExcluded.index_in_array; j < first_empty; ++i, ++j )
+            {
+                array[i] = array[j];
+            }
+            first_empty -= lastExcluded.index_in_array - firstIncluded.index_in_array;
+        }
+        /*
+        if( firstIncluded == begin() )
         {
             for( size_type i = 0; i < lastExcluded.index_in_array; ++i )
                 array[i] = array[i+lastExcluded.index_in_array];
@@ -225,7 +234,7 @@ public:
         {
             first_empty = firstIncluded.index_in_array;
         }
-
+        */
         /// Else... OUT OF RANGE
         else
             throw std::out_of_range("erase(): out of range");
