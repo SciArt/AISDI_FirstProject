@@ -5,7 +5,7 @@
 #include <initializer_list>
 #include <stdexcept>
 
-#include <iostream>
+//#include <iostream>
 
 namespace aisdi
 {
@@ -69,8 +69,8 @@ public:
 
     ~Vector()
     {
-        // Just delete all data in array
-        delete[] array;
+        if( array != nullptr )
+            delete[] array;
     }
 
     Vector& operator=(const Vector& other)
@@ -78,7 +78,9 @@ public:
         if( array == other.array )
             return *this;
 
-        delete[] array;
+        if( array != nullptr )
+            delete[] array;
+
         array = nullptr;
         first_empty = 0;
         size_of_container = 0;
@@ -91,7 +93,8 @@ public:
 
     Vector& operator=(Vector&& other)
     {
-        delete[] array;
+        if( array != nullptr )
+            delete[] array;
 
         array = other.array;
         first_empty = other.first_empty;
@@ -159,7 +162,7 @@ public:
     Type popFirst()
     {
         if( isEmpty() )
-            throw std::logic_error("popFirst when empty collection");
+            throw std::logic_error("popFirst(): when empty collection");
         value_type tmp = array[0];
 
         for( size_type i = 1; i < first_empty; ++i )
@@ -173,14 +176,14 @@ public:
     Type popLast()
     {
         if( isEmpty() )
-            throw std::logic_error("popLast when empty collection");
+            throw std::logic_error("popLast(): when empty collection");
         return array[--first_empty];
     }
 
     void erase(const const_iterator& possition)
     {
         if( possition.index_in_array >= first_empty )
-            throw std::out_of_range("erase() - there are no elements to delete!");
+            throw std::out_of_range("erase(): out of range");
 
         --first_empty;
         for( size_type i = possition.index_in_array; i < first_empty; ++i )
@@ -225,7 +228,7 @@ public:
 
         /// Else... OUT OF RANGE
         else
-            throw std::out_of_range("erase() out of range.");
+            throw std::out_of_range("erase(): out of range");
     }
 
     iterator begin()
@@ -283,7 +286,9 @@ private:
 
         size_of_container += size_of_preallocate;
 
-        delete[] array;
+        if( array != nullptr )
+            delete[] array;
+
         array = tmp;
     }
 };
@@ -309,14 +314,14 @@ public:
     reference operator*() const
     {
         if( (*this) == ptr_to_vector->cend() )
-            throw std::out_of_range("Dereferencing out of range.");
+            throw std::out_of_range("Dereferencing: out of range");
         return *ptr_to_element;
     }
 
     ConstIterator& operator++()
     {
         if( (*this) == ptr_to_vector->cend() )
-            throw std::out_of_range("++iterator out of range");
+            throw std::out_of_range("++iterator: out of range");
 
         ++ptr_to_element;
         ++index_in_array;
@@ -333,7 +338,7 @@ public:
     ConstIterator& operator--()
     {
         if( (*this) == ptr_to_vector->cbegin() )
-            throw std::out_of_range("--iterator out of range");
+            throw std::out_of_range("--iterator: out of range");
 
         --ptr_to_element;
         --index_in_array;

@@ -1,10 +1,11 @@
 #ifndef AISDI_LINEAR_LINKEDLIST_H
 #define AISDI_LINEAR_LINKEDLIST_H
+
 #include <cstddef>
 #include <initializer_list>
 #include <stdexcept>
 
-#include <iostream>
+//#include <iostream>
 
 namespace aisdi
 {
@@ -117,7 +118,7 @@ namespace aisdi
             tail = other.tail;
             size_of_container = other.size_of_container;
 
-            /// We can make a new head and tail if we want to keep 'other' operative
+            // We can make a new head and tail if we want to keep 'other' operative
             other.head = new Node;
             other.tail = new Node;
 
@@ -141,10 +142,8 @@ namespace aisdi
             return size_of_container;
         }
 
-        // OK
         void append(const Type& item)
         {
-            //std::cout << "Append: " << item << std::endl;
             auto new_node = new Node;
 
             tail->prev->next = new_node;
@@ -160,7 +159,6 @@ namespace aisdi
             ++size_of_container;
         }
 
-        // OK
         void prepend(const Type& item)
         {
             auto new_node = new Node;
@@ -178,14 +176,10 @@ namespace aisdi
             ++size_of_container;
         }
 
-        /// NEED ITERATOR
         void insert(const const_iterator& insertPosition, const Type& item)
         {
             if( insertPosition.ptr_to_node == nullptr )
-                std::out_of_range("insert() iterator doesn't point to a anything");
-
-            //auto new_node = new Node;
-            //new_node->value = item;
+                std::out_of_range("insert(): iterator doesn't point to a anything");
 
             if( insertPosition.ptr_to_node->next == nullptr ) // so it is tail
             {
@@ -206,11 +200,6 @@ namespace aisdi
                 new_node->prev->next = new_node;
                 insertPosition.ptr_to_node->prev = new_node;
 
-                /*new_node->prev = insertPosition.ptr_to_node;
-                new_node->next = insertPosition.ptr_to_node->next;
-                new_node->next->prev = new_node;
-                insertPosition.ptr_to_node->next = new_node;*/
-
                 ++size_of_container;
             }
         }
@@ -218,7 +207,7 @@ namespace aisdi
         Type popFirst()
         {
             if( isEmpty() )
-                throw std::out_of_range("Empty list");
+                throw std::out_of_range("popFirst(): Empty list");
 
             Node* node = head->next;
             value_type tmp = *(node->value);
@@ -234,7 +223,7 @@ namespace aisdi
         Type popLast()
         {
             if( isEmpty() )
-                throw std::out_of_range("Empty list");
+                throw std::out_of_range("popLast(): Empty list");
 
             Node* node = tail->prev;
             value_type tmp = *(node->value);
@@ -250,7 +239,7 @@ namespace aisdi
         void erase(const const_iterator& possition)
         {
             if( possition.ptr_to_node == nullptr || possition.ptr_to_node->next == nullptr || possition.ptr_to_node->prev == nullptr )
-                throw std::out_of_range("Cannnot erase guardian");
+                throw std::out_of_range("erase(): guardian or empty");
 
             possition.ptr_to_node->next->prev = possition.ptr_to_node->prev;
             possition.ptr_to_node->prev->next = possition.ptr_to_node->next;
@@ -261,11 +250,12 @@ namespace aisdi
 
         void erase(const const_iterator& firstIncluded, const const_iterator& lastExcluded)
         {
+            // I can do this more effective but i have no time...
             for( auto it1 = firstIncluded; it1 != lastExcluded; )
             {
-                auto it2 = it1 + 1;
-                erase(it1);
-                it1 = it2;
+                //auto it2 = it1 + 1;
+                erase(it1++);
+                //it1 = it2;
             }
         }
 
@@ -283,7 +273,6 @@ namespace aisdi
         {
             ConstIterator it;
             it.ptr_to_node = head->next;
-            //std::cout << "cbegin() == cend() ? " << (it == cend()) << std::endl;
             return it;
         }
 
@@ -342,7 +331,7 @@ private:
         reference operator*() const
         {
             if( ptr_to_node == nullptr || ptr_to_node->prev == nullptr || ptr_to_node->next == nullptr )
-                throw std::out_of_range("Dereferencing out of range.");
+                throw std::out_of_range("dereferencing out of range");
 
             return *(ptr_to_node->value);
         }
@@ -350,7 +339,7 @@ private:
         ConstIterator& operator++()
         {
             if( ptr_to_node->next == nullptr )
-                throw std::out_of_range("++iterator out of range");
+                throw std::out_of_range("++iterator: out of range");
 
             ptr_to_node = ptr_to_node->next;
             return *this;
@@ -366,7 +355,7 @@ private:
         ConstIterator& operator--()
         {
             if( ptr_to_node->prev->prev == nullptr )
-                throw std::out_of_range("++iterator out of range");
+                throw std::out_of_range("++iterator: out of range");
 
             ptr_to_node = ptr_to_node->prev;
             return *this;
@@ -386,7 +375,7 @@ private:
             while( d > 0 )
             {
                 if( tmp.ptr_to_node->next == nullptr )
-                    throw std::out_of_range("operator+ out of range");
+                    throw std::out_of_range("operator+: out of range");
 
                 ++tmp;
                 --d;
@@ -402,7 +391,7 @@ private:
             while( d > 0 )
             {
                 if( tmp.ptr_to_node->prev == nullptr )
-                    throw std::out_of_range("operator- out of range");
+                    throw std::out_of_range("operator-: out of range");
 
                 --tmp;
                 --d;
