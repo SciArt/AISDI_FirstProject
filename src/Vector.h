@@ -275,7 +275,7 @@ private:
     size_type size_of_container;
     size_type first_empty;
 
-    static const size_type size_of_preallocate = 50;
+    static const size_type size_of_preallocate = 1000;
 
     void allocate_more_space( bool first_element_empty = false )
     {
