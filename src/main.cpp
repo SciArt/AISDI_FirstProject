@@ -132,8 +132,5 @@ int main(int argc, char** argv)
 
     std::cout << "Difference    : " << std::chrono::duration_cast<ns>(diff-diff2).count() << " ns\n\n";
 
-    aisdi::Vector<int> t{0,1,2,3,4,5,6};
-    t.erase(t.cbegin(), t.cend());
-
     return 0;
 }

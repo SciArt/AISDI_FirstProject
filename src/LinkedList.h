@@ -39,9 +39,9 @@ namespace aisdi
             size_of_container = 0;
         }
 
-        LinkedList(std::initializer_list<Type> l)
+        LinkedList(std::initializer_list<Type> l) : LinkedList()
         {
-            head = new Node;
+            /*head = new Node;
             tail = new Node;
 
             head->next = tail;
@@ -49,7 +49,7 @@ namespace aisdi
             tail->next = nullptr;
             tail->prev = head;
 
-            size_of_container = 0;
+            size_of_container = 0;*/
 
             for( auto it = l.begin(); it != l.end(); ++it )
                 append(*it);
@@ -57,7 +57,7 @@ namespace aisdi
 
         LinkedList(const LinkedList& other) : LinkedList()
         {
-            head = new Node;
+            /*head = new Node;
             tail = new Node;
 
             head->next = tail;
@@ -65,7 +65,7 @@ namespace aisdi
             tail->next = nullptr;
             tail->prev = head;
 
-            size_of_container = 0;
+            size_of_container = 0;*/
 
             for( auto it = other.begin(); it != other.end(); ++it )
                 append(*it);
@@ -113,6 +113,8 @@ namespace aisdi
                 return *this;
 
             erase( begin(), end() );
+            delete head;
+            delete tail;
 
             head = other.head;
             tail = other.tail;
