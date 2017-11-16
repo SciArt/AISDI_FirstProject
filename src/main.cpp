@@ -13,33 +13,81 @@
 using ns = std::chrono::nanoseconds;
 using get_time = std::chrono::steady_clock;
 
-void testAppendLinkedList( std::size_t number_of_elements )
+ns testAppendLinkedList( std::size_t number_of_elements )
 {
+    auto start = get_time::now();
+
     aisdi::LinkedList<int> collection;
     for( std::size_t i = 0; i < number_of_elements; ++i )
         collection.append(i);
+
+    return std::chrono::duration_cast<ns>(get_time::now() - start);
 }
 
-void testAppendVector( std::size_t number_of_elements )
+ns testAppendVector( std::size_t number_of_elements )
+{
+    auto start = get_time::now();
+
+    aisdi::Vector<int> collection;
+    for( std::size_t i = 0; i < number_of_elements; ++i )
+        collection.append(i);
+
+    return std::chrono::duration_cast<ns>(get_time::now() - start);
+}
+
+ns testPrependLinkedList( std::size_t number_of_elements )
+{
+    auto start = get_time::now();
+
+    aisdi::LinkedList<int> collection;
+    for( std::size_t i = 0; i < number_of_elements; ++i )
+        collection.prepend(i);
+
+    return std::chrono::duration_cast<ns>(get_time::now() - start);
+}
+
+ns testPrependVector( std::size_t number_of_elements )
+{
+    auto start = get_time::now();
+
+    aisdi::Vector<int> collection;
+    for( std::size_t i = 0; i < number_of_elements; ++i )
+        collection.prepend(i);
+
+    return std::chrono::duration_cast<ns>(get_time::now() - start);
+}
+
+ns testRandomAccessVector( std::size_t number_of_elements )
 {
     aisdi::Vector<int> collection;
     for( std::size_t i = 0; i < number_of_elements; ++i )
         collection.append(i);
+
+    srand( 0 );
+    auto start = get_time::now();
+
+    for( std::size_t i = 0; i < number_of_elements; ++i )
+        *(collection.begin()+(rand()%number_of_elements));
+
+    return std::chrono::duration_cast<ns>(get_time::now() - start);
+
 }
 
-void testPrependLinkedList( std::size_t number_of_elements )
+ns testRandomAccessLinkedList( std::size_t number_of_elements )
 {
     aisdi::LinkedList<int> collection;
     for( std::size_t i = 0; i < number_of_elements; ++i )
-        collection.prepend(i);
+        collection.append(i);
+
+    srand( 0 );
+    auto start = get_time::now();
+
+    for( std::size_t i = 0; i < number_of_elements; ++i )
+        *(collection.begin()+(rand()%number_of_elements));
+
+    return std::chrono::duration_cast<ns>(get_time::now() - start);
 }
 
-void testPrependVector( std::size_t number_of_elements )
-{
-    aisdi::Vector<int> collection;
-    for( std::size_t i = 0; i < number_of_elements; ++i )
-        collection.prepend(i);
-}
 
 int main(int argc, char** argv)
 {
@@ -48,44 +96,41 @@ int main(int argc, char** argv)
     /// TEST#1 ===========================================================================
     std::cout << "Test#1: adding element to the end of the collection\n";
 
-    auto start = get_time::now();
-
-    testAppendLinkedList( repeatCount ); /// TEST
-
-    auto diff = get_time::now() - start;
+    auto diff = testAppendLinkedList( repeatCount );
 
     std::cout << "LinkedList    : " << std::chrono::duration_cast<ns>(diff).count() << " ns\n";
 
-    start = get_time::now();
-
-    testAppendVector( repeatCount ); /// TEST
-
-    auto diff2 = get_time::now() - start;
+    auto diff2 = testAppendVector( repeatCount );
 
     std::cout << "Vector        : " << std::chrono::duration_cast<ns>(diff2).count() << " ns\n";
 
-    std::cout << "Difference    : " << std::chrono::duration_cast<ns>(diff-diff2).count() << " ns\n";
+    std::cout << "Difference    : " << std::chrono::duration_cast<ns>(diff-diff2).count() << " ns\n\n";
 
     /// TEST#2 ===========================================================================
     std::cout << "Test#2: adding element to the beginning of the collection\n";
 
-    start = get_time::now();
-
-    testPrependLinkedList( repeatCount ); /// TEST
-
-    diff = get_time::now() - start;
+    diff = testPrependLinkedList( repeatCount );
 
     std::cout << "LinkedList    : " << std::chrono::duration_cast<ns>(diff).count() << " ns\n";
 
-    start = get_time::now();
-
-    testPrependVector( repeatCount ); /// TEST
-
-    diff2 = get_time::now() - start;
+    diff2 = testPrependVector( repeatCount );
 
     std::cout << "Vector        : " << std::chrono::duration_cast<ns>(diff2).count() << " ns\n";
 
-    std::cout << "Difference    : " << std::chrono::duration_cast<ns>(diff-diff2).count() << " ns\n";
+    std::cout << "Difference    : " << std::chrono::duration_cast<ns>(diff-diff2).count() << " ns\n\n";
+
+    /// TEST#3 ===========================================================================
+    std::cout << "Test#3: random access\n";
+
+    diff = testRandomAccessLinkedList( repeatCount );
+
+    std::cout << "LinkedList    : " << std::chrono::duration_cast<ns>(diff).count() << " ns\n";
+
+    diff2 = testRandomAccessVector( repeatCount );
+
+    std::cout << "Vector        : " << std::chrono::duration_cast<ns>(diff2).count() << " ns\n";
+
+    std::cout << "Difference    : " << std::chrono::duration_cast<ns>(diff-diff2).count() << " ns\n\n";
 
     return 0;
 }
